@@ -1,4 +1,4 @@
-token: "lip_LxOdszffnb7u1m35raeW"    # Lichess OAuth2 Token.
+token: "lip_6IdYZqfkQbSuDs0yCRCZ"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -141,7 +141,7 @@ correspondence:
     ponder: false            # Ponder in correspondence games the bot is connected to.
 
 challenge:                   # Incoming challenges.
-  concurrency: 1             # Number of games to play simultaneously.
+  concurrency: 5             # Number of games to play simultaneously.
   sort_by: "best"            # Possible values: "best" and "first".
   accept_bot: true          # Accepts challenges coming from other bots.
   only_bot: false            # Accept challenges by bots only.
